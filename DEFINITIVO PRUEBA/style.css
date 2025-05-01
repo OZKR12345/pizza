@@ -1,0 +1,27 @@
+body {
+
+    background-image: url(Cesia.jpg);
+}
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .titulo {
+    animation: aparecer 1s ease-out forwards;
+  }
+  .btn {
+    padding: 20px 40px;      /* Ajusta el espacio interno (alto y ancho) */
+    font-size: 10em;        /* Tamaño del texto */
+    width: 300px;            /* Ancho del botón (opcional) */
+    height: 70px;            /* Alto del botón (opcional) */
+  }
+  
+  
+  
